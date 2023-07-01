@@ -11,14 +11,11 @@ public class Arrays {
         intArray[5]=1;
         intArray[6]=-22;
 
-        //print the array
+        //print the array using for loop
 
         for(int i=0; i<intArray.length;i++){
             System.out.println(intArray[i]);
 
         }
-
-
-
     }
 }
