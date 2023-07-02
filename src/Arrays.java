@@ -13,9 +13,15 @@ public class Arrays {
 
         //print the array using for loop
 
+        int index=-1;
         for(int i=0; i<intArray.length;i++){
-            System.out.println(intArray[i]);
+            if(intArray[i]==7){
+            index=i;    
+            break;             
+            }
+            //System.out.println(intArray[i]);
 
         }
+        System.out.println("Index = "+ index);
     }
 }
